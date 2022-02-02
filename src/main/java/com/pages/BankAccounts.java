@@ -3,7 +3,9 @@ package com.pages;
 import org.openqa.selenium.By;
 
 import com.qa.util.Basepage;
-
+/**
+ * base
+ */
 public class BankAccounts extends Basepage{
 
 	By username         =   By.xpath("//span[@class='userTitle']");
